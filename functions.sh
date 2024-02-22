@@ -3,7 +3,7 @@
 #
 # functions
 #
-# (c) 2007-2022, Hetzner Online GmbH
+# (c) 2023-2024, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 
@@ -31,7 +31,7 @@ BOOTLOADER=""
 GOVERNOR=""
 CRYPT=""
 CRYPTPASSWORD=""
-IPV4_ONLY=0
+IPV4_ONLY=1
 USE_KERNEL_MODE_SETTING=1
 declare -i BTRFS_VOL_COUNT=0
 declare -a BTRFS_VOL_NAME
@@ -1790,7 +1790,7 @@ unmount_all() {
   unmount_errors=0
 
   while read line ; do
-    device="$(echo "$line" | grep -v "^/dev/loop" | grep -v "^/dev/root" | grep "^/" | grep -v '^//.* cifs .*' | awk '{ print $1 }')"
+    device="$(echo "$line" | grep -v "^/dev/loop" | grep -v "^/dev/root" | grep "^/" | grep -v '^//.* cifs .*' | grep -v "archiso" | awk '{ print $1 }')"
     if [ "$device" ] ; then
       unmount_output="$unmount_output\n$(umount $device 2>&1)"; EXITCODE=$?
       unmount_errors=$[$unmount_errors + $EXITCODE]
@@ -3840,14 +3840,14 @@ exit_function() {
   echo
   echo "Please check our wiki for a description of the error:"
   echo
-  echo "https://docs.hetzner.com/robot/dedicated-server/operating-systems/installimage/"
+  echo "https://panel.cubepath.com/knowledgebase/1/-Installation-of-operating-system-using-installimage.html"
   echo
   echo "If your problem is not described there, try booting into a fresh"
   echo "rescue system and restart the installation. If the installation"
   echo "fails again, please contact our support via Hetzner Robot, providing"
   echo "the IP address of the server and a copy of the debug file."
   echo
-  echo "  https://robot.hetzner.com/"
+  echo "  https://panel.cubepath.com/"
   echo
 
   report_install
