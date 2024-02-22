@@ -3826,7 +3826,7 @@ cleanup() {
   done < <(tac /proc/mounts)
   rm --force --recursive --verbose "${FOLD}" &> /dev/null # |& debugoutput
 
-  resume_swraid_resync
+  #resume_swraid_resync
 }
 
 exit_function() {
