@@ -3850,7 +3850,7 @@ exit_function() {
   echo "  https://panel.cubepath.com/"
   echo
 
-  report_install
+  #report_install
 }
 
 #function to check if it is a intel or amd cpu
