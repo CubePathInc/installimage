@@ -3,7 +3,7 @@
 #
 # blsconfig functions
 #
-# (c) 2023, Hetzner Online GmbH
+# (c) 2023, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 blsconfig_fix_paths() {

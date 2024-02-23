@@ -3,7 +3,7 @@
 #
 # chroot functions
 #
-# (c) 2007-2023, Hetzner Online GmbH
+# (c) 2007-2023, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 execute_chroot_command_wo_debug() {

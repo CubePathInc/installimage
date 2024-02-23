@@ -3,7 +3,7 @@
 #
 # skip menu - use "autosetup" file
 #
-# (c) 2008-2022, Hetzner Online GmbH
+# (c) 2008-2022, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 # read global variables and functions

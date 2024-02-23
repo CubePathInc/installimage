@@ -3,7 +3,7 @@
 #
 # archlinux functions
 #
-# (c) 2013-2021, Hetzner Online GmbH
+# (c) 2013-2021, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 validate_image() {

@@ -3,7 +3,7 @@
 #
 # passwd functions
 #
-# (c) 2023, Hetzner Online GmbH
+# (c) 2023, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 installed_os_set_root_password_hash() {

@@ -3,7 +3,7 @@
 #
 # network config functions
 #
-# (c) 2017-2021, Hetzner Online GmbH
+# (c) 2017-2021, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 # setup /etc/sysconfig/network

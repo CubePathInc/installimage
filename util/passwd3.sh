@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# (c) 2023, Hetzner Online GmbH
+# (c) 2023, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 
 "${0%/*}/passwd_using_method.sh" NT "$@"
 

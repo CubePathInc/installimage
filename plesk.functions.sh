@@ -3,7 +3,7 @@
 #
 # plesk functions
 #
-# (c) 2007-2018, Hetzner Online GmbH
+# (c) 2007-2018, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 # is_plesk_install()

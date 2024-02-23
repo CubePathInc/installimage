@@ -3,7 +3,7 @@
 #
 # webmin functions
 #
-# (c) 2017-2018, Hetzner Online GmbH
+# (c) 2017-2018, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 regenerate_webmin_miniserv_ssl_certificate() {

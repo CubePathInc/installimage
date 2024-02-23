@@ -1,6 +1,6 @@
 
 ## ===================================================
-##  Hetzner Online GmbH - installimage  -  Proxmox-VE
+##  CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage" - installimage  -  Proxmox-VE
 ## ===================================================
 
 DRIVE1 /dev/sda

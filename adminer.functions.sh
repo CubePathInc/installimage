@@ -3,7 +3,7 @@
 #
 # adminer functions
 #
-# (c) 2019, Hetzner Online GmbH
+# (c) 2019, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 setup_adminer() {

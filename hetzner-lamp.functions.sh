@@ -3,7 +3,7 @@
 #
 # hetzner lamp functions
 #
-# (c) 2017-2018, Hetzner Online GmbH
+# (c) 2017-2018, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 hetzner_lamp_install() { lamp_install && [[ "${IAM,,}" == 'debian' ]]; }

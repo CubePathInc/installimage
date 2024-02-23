@@ -3,7 +3,7 @@
 #
 # mainmenu - choose which image should be installed
 #
-# (c) 2007-2022, Hetzner Online GmbH
+# (c) 2007-2022, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 

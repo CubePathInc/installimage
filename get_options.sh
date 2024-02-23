@@ -3,7 +3,7 @@
 # read config
 #. /tmp/install.vars
 #
-# (c) 2009-2018, Hetzner Online GmbH
+# (c) 2009-2018, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 

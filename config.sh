@@ -3,7 +3,7 @@
 #
 # set all necessary vars and functions
 #
-# (c) 2007-2022, Hetzner Online GmbH
+# (c) 2007-2022, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 

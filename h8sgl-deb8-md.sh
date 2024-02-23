@@ -1,6 +1,6 @@
 #!/bin/sh
 
-### Hetzner Online GmbH - installimage
+### CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage" - installimage
 
 PREREQ="mdadm mdrun multipath"
 

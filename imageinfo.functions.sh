@@ -3,7 +3,7 @@
 #
 # imageinfo functions
 #
-# (c) 2019-2022, Hetzner Online GmbH
+# (c) 2019-2022, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 debian_buster_image() {

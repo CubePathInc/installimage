@@ -3,7 +3,7 @@
 #
 # screen functions
 #
-# (c) 2023, Hetzner Online GmbH
+# (c) 2023, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 get_screen_output() {

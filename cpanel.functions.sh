@@ -3,7 +3,7 @@
 #
 # cpanel functions
 #
-# (c) 2008-2018, Hetzner Online GmbH
+# (c) 2008-2018, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 # is_cpanel_install()

@@ -3,7 +3,7 @@
 #
 # install - installation commands
 #
-# (c) 2007-2021, Hetzner Online GmbH
+# (c) 2007-2021, CubePath Inc. Installation image, Fork of "https://github.com/hetzneronline/installimage"
 #
 
 
