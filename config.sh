@@ -92,6 +92,7 @@ export PROXMOX4_BASE_IMAGE="Debian-811-jessie-64-minimal"
 export PROXMOX5_BASE_IMAGE="Debian-913-stretch-64-minimal"
 export PROXMOX6_BASE_IMAGE="Debian-1013-buster-64-minimal"
 export PROXMOX7_BASE_IMAGE="Debian-1107-bullseye-amd64-base"
+export PROXMOX8_BASE_IMAGE="Debian-1202-bookworm-amd64-base"
 
 export CPANEL_INSTALLER_SRC=http://mirror.hetzner.com/tools/cpanelinc/cpanel
 
@@ -145,8 +146,7 @@ export ARCHLINUX_BOOTSTRAP="$ARCHLINUX_DIR/archlinux-bootstrap-latest-x86_64.tar
 other_images() {
   find "$IMAGESPATH"/ -maxdepth 1 -type f -name "CoreOS*" -a -not -name "*.sig" -printf '%f\n'
   echo 'Proxmox-Virtualization-Environment-on-Debian-Bullseye'
-  echo 'Proxmox-Virtualization-Environment-on-Debian-Buster'
-  echo 'Proxmox-Virtualization-Environment-on-Debian-Stretch'
+  echo 'Proxmox-Virtualization-Environment-on-Debian-Bookworm'
   find "$IMAGESPATH/" -maxdepth 1 -type f -iname '*beta*' -a -not -name '*.sig' -printf '%f\n'
 }
 
