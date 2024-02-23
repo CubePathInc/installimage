@@ -573,7 +573,7 @@ report_install
   echo "# More information about the installimage script and"
   echo "# automatic installations can be found in our wiki:"
   echo "#"
-  echo "# https://docs.hetzner.com/robot/dedicated-server/operating-systems/installimage/"
+  echo "# https://panel.cubepath.com/knowledgebase"
   echo "#"
   echo
   cat $FOLD/install.conf | grep -v "^#" | grep -v "^$"
