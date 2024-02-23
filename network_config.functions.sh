@@ -720,6 +720,7 @@ setup_etc_netplan_01_netcfg_yaml() {
       gen_etc_netplan_01_netcfg_yaml_entry "$network_interface" || return 1
     done < <(physical_network_interfaces)
   } > "$FOLD/hdd/etc/netplan/01-netcfg.yaml" 2> >(debugoutput)
+  chmod 600 "$FOLD/hdd/etc/netplan/01-netcfg.yaml"
 }
 
 # gen network file
