@@ -501,7 +501,7 @@ gen_etc_network_interfaces_entry() {
         # echo "  up ip route add $network via $gateway dev $predicted_network_interface_name"
 
         local network_without_suffix="$(ip_addr_without_suffix "$network")"
-        echo "  up route add -net $network_without_suffix netmask $netmask gw $gateway dev $predicted_network_interface_name"
+        #echo "  up route add -net $network_without_suffix netmask $netmask gw $gateway dev $predicted_network_interface_name"
       fi
     fi
   fi
